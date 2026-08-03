@@ -1,0 +1,11 @@
+{
+  "openreview_id": "aDPbUSUCwh",
+  "source": "outputs/live/20260803T223039Z/claims_anchored.json",
+  "claims": [
+    "The Dirac-Frenkel-Onsager (DFO) principle injects momentum only along nullspace (gauge) directions of the Gram matrix G(theta(t)), preserving instantaneous Dirac-Frenkel residual minimization while yielding smooth, unique parameter trajectories (Section 3.1, Section 4.1-4.2).",
+    "Proposition A.1 proves that for the wave-collision problem with exact tangent-space collapse (rho=0), choosing the momentum gain lambda = (1-exp(-2/tau))^-1 allows DFO to recover the exact PDE solution through collision, whereas standard minimal-norm Dirac-Frenkel dynamics fails (Proposition A.1).",
+    "On three low-dimensional benchmarks, DFO reduces error over standard Dirac-Frenkel dynamics (Section 5.2, Table 1).",
+    "On a 5-dimensional Fokker-Planck problem, DFO improves error and RDFO cuts runtime while preserving accuracy (Section 5.3).",
+    "Algorithm 1 uses truncated SVD, EMA momentum beta=tau/(tau+dt), and nullspace projection before the parameter update (Algorithm 1)."
+  ]
+}

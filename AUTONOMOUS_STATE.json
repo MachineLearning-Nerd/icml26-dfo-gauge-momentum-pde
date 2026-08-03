@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "openreview_id": "aDPbUSUCwh",
+  "phase": "claim_1_attempt_1_gauge_projection_toy_complete",
+  "next_action": "independent_review_claim_1_toy_then_claim_2_proposition_audit",
+  "active_run_ids": [],
+  "completed_milestones": [
+    "live_duplicate_gate",
+    "live_contract_saved",
+    "source_archive_pinned",
+    "claim_1_source_cpu_feasibility_audit",
+    "claim_1_attempt_1_gauge_projection_toy"
+  ],
+  "failed_attempts": [],
+  "claim_attempt_counts": {
+    "1": 1,
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "5": 0
+  },
+  "last_checkpoint": "2026-08-04T00:00:00Z",
+  "last_known_git_commit": null,
+  "publication_allowed": false,
+  "compute_policy": "local CPU/local GTX 1050 only; no HF cpu-upgrade, Jobs, paid, or remote compute",
+  "claim_1_outcome": {
+    "verdict": "toy",
+    "scope": "Exact finite linear-algebra gauge-projection fixture for DFO nullspace momentum; not nonlinear PDE or theorem verification."
+  }
+}
