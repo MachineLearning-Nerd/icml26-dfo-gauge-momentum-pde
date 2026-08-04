@@ -1,0 +1,56 @@
+{
+  "verdict": "toy",
+  "scope": "Finite algebraic check of the Proposition A.1 collision identity only; not a PDE solve or theorem verification.",
+  "source": "main.tex:649-714",
+  "rows": [
+    {
+      "tau": 0.25,
+      "lambda": 1.0003355752008412,
+      "memory_factor": 0.9996645373720975,
+      "dfo_velocity": [
+        0.9999999999999999,
+        -0.9999999999999999,
+        1.0,
+        -1.0
+      ],
+      "max_abs_error_vs_q": 1.1102230246251565e-16
+    },
+    {
+      "tau": 0.5,
+      "lambda": 1.018657360363774,
+      "memory_factor": 0.9816843611112658,
+      "dfo_velocity": [
+        1.0,
+        -1.0,
+        1.0,
+        -1.0
+      ],
+      "max_abs_error_vs_q": 0.0
+    },
+    {
+      "tau": 1.0,
+      "lambda": 1.1565176427496657,
+      "memory_factor": 0.8646647167633873,
+      "dfo_velocity": [
+        1.0,
+        -1.0,
+        1.0,
+        -1.0
+      ],
+      "max_abs_error_vs_q": 0.0
+    },
+    {
+      "tau": 2.0,
+      "lambda": 1.5819767068693265,
+      "memory_factor": 0.6321205588285577,
+      "dfo_velocity": [
+        1.0,
+        -1.0,
+        1.0,
+        -1.0
+      ],
+      "max_abs_error_vs_q": 0.0
+    }
+  ],
+  "all_exact": true
+}
