@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "repository": "MachineLearning-Nerd/icml26-dfo-gauge-momentum-pde",
+  "paper": {
+    "title": "A Dirac-Frenkel-Onsager principle: Instantaneous residual minimization with gauge momentum for nonlinear parametrizations of PDE solutions",
+    "authors": [
+      "Matteo Raviola",
+      "Benjamin Peherstorfer"
+    ],
+    "arxiv": "2605.00284",
+    "arxiv_version": "v1",
+    "openreview": "aDPbUSUCwh"
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "status": "toy_finite_gauge_projection",
+      "paper_statement": "DFO injects momentum only in Gram-matrix nullspace directions while preserving instantaneous residual minimization.",
+      "producer": "src/claim1_gauge_toy.py",
+      "evidence": [
+        "outputs/claim1_gauge_toy/summary.json",
+        "outputs/claim1_gauge_toy/SHA256SUMS"
+      ],
+      "scope": "Fixed 2 x 3 linear fixture; no nonlinear PDE or theorem verification."
+    },
+    {
+      "id": "C2",
+      "status": "toy_finite_collision_algebra",
+      "paper_statement": "Proposition A.1 recovers the exact wave crossing at rho=0 for lambda=(1-exp(-2/tau))^-1.",
+      "producer": "src/claim2_proposition_a1_toy.py",
+      "evidence": [
+        "outputs/claim2_proposition_a1_toy/summary.json",
+        "outputs/claim2_proposition_a1_toy/SHA256SUMS",
+        "evidence/claim2_attempt1/source_locations.md"
+      ],
+      "scope": "Four finite tau values; no wave PDE solve or continuous-time proof check."
+    },
+    {
+      "id": "C3",
+      "status": "unverified",
+      "paper_statement": "DFO reduces error over standard Dirac-Frenkel on three low-dimensional PDE benchmarks.",
+      "producer": null,
+      "evidence": [],
+      "scope": "No benchmark implementation or result artifact."
+    },
+    {
+      "id": "C4",
+      "status": "unverified",
+      "paper_statement": "DFO improves error and RDFO reduces runtime on a five-dimensional Fokker-Planck problem.",
+      "producer": null,
+      "evidence": [],
+      "scope": "No Fokker-Planck implementation, checkpoint, or runtime artifact."
+    },
+    {
+      "id": "C5",
+      "status": "unverified",
+      "paper_statement": "Algorithm 1 uses truncated SVD, EMA momentum, nullspace projection, and ordered parameter update.",
+      "producer": null,
+      "evidence": [],
+      "scope": "Source/contract pinned; no independent Algorithm 1 implementation."
+    }
+  ],
+  "publication_allowed": false,
+  "publication_policy": "Publish only the bounded toy audit with explicit limits; do not claim PDE, runtime, theorem, or author endorsement evidence."
+}
+

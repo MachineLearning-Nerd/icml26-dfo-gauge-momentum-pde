@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If this audit or the paper is useful, please cite the paper."
+title: "A Dirac-Frenkel-Onsager principle: Instantaneous residual minimization with gauge momentum for nonlinear parametrizations of PDE solutions"
+type: article
+authors:
+  - family-names: Raviola
+    given-names: Matteo
+  - family-names: Peherstorfer
+    given-names: Benjamin
+year: 2026
+url: https://arxiv.org/abs/2605.00284
+repository-code: https://github.com/MachineLearning-Nerd/icml26-dfo-gauge-momentum-pde
+identifiers:
+  - type: arXiv
+    value: "2605.00284"
+
