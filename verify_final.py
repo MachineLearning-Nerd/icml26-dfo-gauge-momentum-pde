@@ -14,7 +14,10 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 REPOSITORY = 'icml26-dfo-gauge-momentum-pde'
-CANONICAL = ('MachineLearning-Nerd', 'MachineLearning-Nerd@users.noreply.github.com')
+CANONICAL_IDENTITIES = {
+    ('MachineLearning-Nerd', 'MachineLearning-Nerd@users.noreply.github.com'),
+    ('MachineLearning-Nerd', '37579156+MachineLearning-Nerd@users.noreply.github.com'),
+}
 EXPECTED_BRANCHES = {'main'}
 ARCHIVE_SHA = 'abe4a05f8b7a6802d78b78bc8ed009f330859335009c184d0b333ae406fd120e'
 SOURCE_SUMS_SHA = '84bf39ff44288f66b73f2cddb76a219d112a5f552b43069dd9239efb134a47cc'
@@ -119,7 +122,13 @@ def verify_git() -> tuple[int, int]:
     for line in run('git', 'log', '--all', '--format=%an\t%ae\t%cn\t%ce').splitlines():
         if line.strip():
             identities.add(tuple(line.split('\t')))
-    require(identities == {(CANONICAL[0], CANONICAL[1], CANONICAL[0], CANONICAL[1])},
+    require(identities and all(
+        (author, author_email) in CANONICAL_IDENTITIES
+        and (committer, committer_email) in CANONICAL_IDENTITIES
+        and author == 'MachineLearning-Nerd'
+        and committer == 'MachineLearning-Nerd'
+        for author, author_email, committer, committer_email in identities
+    ),
             f'non-canonical reachable identity: {sorted(identities)}')
     require('co-authored-by:' not in run('git', 'log', '--all', '--format=%B').lower(),
             'co-author trailer found')

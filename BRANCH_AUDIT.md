@@ -12,10 +12,12 @@ pre-normalization commits and was removed after confirming it was absent from
 the remote. The stale <code>refs/original</code> attribution ref was also
 removed.
 
-All reachable final commits use:
-
-<code>MachineLearning-Nerd &lt;MachineLearning-Nerd@users.noreply.github.com&gt;</code>
+All reachable final commits use the MachineLearning-Nerd account. The existing
+audit history uses the account-scoped GitHub noreply address
+<code>37579156+MachineLearning-Nerd@users.noreply.github.com</code>; later
+publication tooling may use the shorter
+<code>MachineLearning-Nerd@users.noreply.github.com</code> alias. Both are
+MachineLearning-Nerd-owned GitHub noreply identities.
 
 No <code>orx</code>, experiment, author-code, or hidden results branch remains
 in the final local or remote ref set.
-

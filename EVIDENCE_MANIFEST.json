@@ -4,9 +4,39 @@
   "scope": "DFO paper identity, bounded claim toys, source provenance, branch audit, and final-state verification",
   "entries": [
     {
+      "bytes": 46,
+      "path": ".gitignore",
+      "sha256": "061cbf91d4060aa13524900c0097e6940f894f8c112e715baee59968ddac0537"
+    },
+    {
       "bytes": 217,
       "path": ".trackio/logbook/pages/claim-2-proposition-a1-toy/page.md",
       "sha256": "00b0ae1fb2dcc737fc70696f5db0258a2713f8788869300472729531d2dd2218"
+    },
+    {
+      "bytes": 503,
+      "path": "AUTHOR_THANK_YOU.md",
+      "sha256": "431240948a3725b7e0ad0215dcc1509182146f8b5d711b06aad08b48dcc121cf"
+    },
+    {
+      "bytes": 1027,
+      "path": "BRANCH_AUDIT.md",
+      "sha256": "15fab641ef46e75f6c522f065100f242509d28fcde47907ffa605a4850b76b6f"
+    },
+    {
+      "bytes": 559,
+      "path": "CITATION.cff",
+      "sha256": "80dd0c99e9fa30eeeaa5aed0c37e302b417a3de0ce5a2d1beaedbeade0f5ee7a"
+    },
+    {
+      "bytes": 2594,
+      "path": "CLAIM_EVIDENCE.md",
+      "sha256": "110b5eefe6bcd1083a66f9eb489de5b700aebaee429db5afc3ae8f60ca396509"
+    },
+    {
+      "bytes": 1065,
+      "path": "ENVIRONMENT.md",
+      "sha256": "77a3686b3474666b7e81ace5d0d2e179376006678ded15e6466949a5433ffd96"
     },
     {
       "bytes": 9059,
@@ -14,9 +44,29 @@
       "sha256": "38f70d5521cd48e224ce45e15ad422a23730aa29539483b7b5dd00865023a5d2"
     },
     {
+      "bytes": 1355,
+      "path": "REPORT.md",
+      "sha256": "32bb211272611ba242d5b8a2b370f4575a4b88fd3b8255e10aee97c737781a3c"
+    },
+    {
+      "bytes": 1921,
+      "path": "SOURCE_AUDIT.md",
+      "sha256": "027e0f6202ec9c656cbfb91393a9d2b54e6ddf906b812140490fc2f5d76e9263"
+    },
+    {
       "bytes": 795,
       "path": "STATUS.md",
       "sha256": "8fa73531408513522874c9bd12cef4d428cbeec4e38e967c1f615e4c3f091b48"
+    },
+    {
+      "bytes": 266,
+      "path": "branch-audit.md",
+      "sha256": "788358e2e1352ff5235ef37b0d23bf3c150546f192cbb9e2ad1959d1da0eb723"
+    },
+    {
+      "bytes": 2563,
+      "path": "claims.json",
+      "sha256": "c60994e1f1ca53b9817c75e9362aef3ba17a4b307ddd350804b18e2bb4f23dfc"
     },
     {
       "bytes": 1102,
@@ -79,59 +129,9 @@
       "sha256": "fa6e922a826d9e2990d004f2e06712dde223ec905ab37208322cc193f41d7167"
     },
     {
-      "bytes": 46,
-      "path": ".gitignore",
-      "sha256": "061cbf91d4060aa13524900c0097e6940f894f8c112e715baee59968ddac0537"
-    },
-    {
-      "bytes": 2594,
-      "path": "CLAIM_EVIDENCE.md",
-      "sha256": "110b5eefe6bcd1083a66f9eb489de5b700aebaee429db5afc3ae8f60ca396509"
-    },
-    {
-      "bytes": 1921,
-      "path": "SOURCE_AUDIT.md",
-      "sha256": "027e0f6202ec9c656cbfb91393a9d2b54e6ddf906b812140490fc2f5d76e9263"
-    },
-    {
-      "bytes": 1065,
-      "path": "ENVIRONMENT.md",
-      "sha256": "77a3686b3474666b7e81ace5d0d2e179376006678ded15e6466949a5433ffd96"
-    },
-    {
-      "bytes": 1355,
-      "path": "REPORT.md",
-      "sha256": "32bb211272611ba242d5b8a2b370f4575a4b88fd3b8255e10aee97c737781a3c"
-    },
-    {
-      "bytes": 503,
-      "path": "AUTHOR_THANK_YOU.md",
-      "sha256": "431240948a3725b7e0ad0215dcc1509182146f8b5d711b06aad08b48dcc121cf"
-    },
-    {
-      "bytes": 559,
-      "path": "CITATION.cff",
-      "sha256": "80dd0c99e9fa30eeeaa5aed0c37e302b417a3de0ce5a2d1beaedbeade0f5ee7a"
-    },
-    {
-      "bytes": 766,
-      "path": "BRANCH_AUDIT.md",
-      "sha256": "8fc72b13080044a1e125d3e9dac0642e5619d5e6581d716ba997d69b9f870765"
-    },
-    {
-      "bytes": 266,
-      "path": "branch-audit.md",
-      "sha256": "788358e2e1352ff5235ef37b0d23bf3c150546f192cbb9e2ad1959d1da0eb723"
-    },
-    {
-      "bytes": 2563,
-      "path": "claims.json",
-      "sha256": "c60994e1f1ca53b9817c75e9362aef3ba17a4b307ddd350804b18e2bb4f23dfc"
-    },
-    {
-      "bytes": 11109,
+      "bytes": 11458,
       "path": "verify_final.py",
-      "sha256": "a867b3b8c857c8b4991d3349c799837bb3b77fbcc87bd9056258afb51d5a9b5a"
+      "sha256": "d0063c30ef7658d0a39080ed4ab1d83894d6c057edc7558173cdeae20c65beb0"
     }
   ]
 }
